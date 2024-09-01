@@ -1,0 +1,6 @@
+# self_apply = λs.(s s)
+
+\\self_apply=(\s (s s))
+
+def "self_apply" self_apply;
+std

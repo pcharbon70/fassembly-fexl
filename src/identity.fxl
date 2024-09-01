@@ -1,0 +1,6 @@
+# identity = λx.x
+
+\\identity=(\x x)
+
+def "identity" identity;
+std

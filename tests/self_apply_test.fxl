@@ -1,0 +1,11 @@
+# identity = λx.x
+
+\std=(extend std; use "../src/identity.fxl")
+extend std
+\;
+
+# Todo: Use propertybased testing in identity_test
+
+say ["identity 10 = " (identity 10)]
+say ["identity boo = " (identity "boo")]
+

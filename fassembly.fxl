@@ -1,0 +1,15 @@
+##########################################################
+## Standard FAssembly Library - Stage 1 - Fexl          ##
+##########################################################
+# At this stage, we used the Fexl library to  write      #
+# the different functional programming function in Fexl. #
+##########################################################
+# Next stage: Compilation to C bytecode                  #
+##########################################################
+
+\std=(extend std; use "src/identity.fxl")
+
+
+extend std
+\;
+
